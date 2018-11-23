@@ -16,18 +16,18 @@
     </v-toolbar>
 
     <v-content>
-      <HelloWorld/>
+      <counter/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import counter from "./components/counter";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    counter
   },
   data() {
     return {

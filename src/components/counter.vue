@@ -1,6 +1,8 @@
 <template>
     <div class="counter">
-        <button></button>
+        <v-btn color="info" v-on:click="click">Click</v-btn>
+
+        <h1>{{ count }}</h1>
     </div>
 </template>
 
@@ -11,6 +13,11 @@ export default {
     return {
       count: 0
     };
+  },
+  methods: {
+    click: function() {
+      this.count++;
+    }
   }
 };
 </script>

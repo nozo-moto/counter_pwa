@@ -1,13 +1,13 @@
 <template>
-  <HelloWorld />
+  <counter/>
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import counter from "../components/counter.vue";
 
 export default {
   components: {
-    HelloWorld
+    counter
   }
 };
 </script>
